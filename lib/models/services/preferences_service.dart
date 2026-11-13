@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 
-// Nesta fase, os dados continuam simulados em memória.
-// Na próxima etapa, esta classe poderá utilizar shared_preferences.
 class PreferencesService {
   static final Map<String, dynamic> _dados = {};
 
